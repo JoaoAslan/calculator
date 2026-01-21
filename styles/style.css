@@ -97,14 +97,13 @@ body {
     transition: transform 100ms;
 }
 
-.buttons .operators {
+.buttons .op {
     background-color: #51536e;
 }
 
-.buttons .special {
+.buttons .btn-clear, .buttons .btn-equal {
     background-color: #ce1515;
 }
-
 
 .buttons button:active {
     transform: scale(0.95);
