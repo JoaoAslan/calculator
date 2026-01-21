@@ -76,9 +76,10 @@ body {
 
 .buttons {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    border-spacing: 10px;
     flex: 1;
 }
 
@@ -89,6 +90,9 @@ body {
     font-size: 2.3rem;
     font-family: 'ds-digital';
     border-radius: 10px;
+
+    height: 100%;
+    width: 100%;
 
     transition: transform 100ms;
 }
